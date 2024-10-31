@@ -1,0 +1,88 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.booking-table {
+    width: 80%;
+    border-collapse: collapse;
+    margin-left: 100px;
+    margin-Bottom: 70px;
+    margin-top: 30px;
+  }
+  
+  .booking-table th,
+  .booking-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .booking-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .reset-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+  }
+  
+  .reset-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .assign-select {
+    width: 100%;
+    padding: 8px;
+  }
+  
+
+  .vouchers-container {
+    /* width: 1440px; */
+    height: 233px;
+    top: 167px;
+    padding: 78px  78px ;
+    gap: 0px;
+    opacity: 0px;
+    background: rgba(141, 150, 169, 1);
+    margin-top: 30px;
+
+    /* padding: 20px; */
+    text-align: center;
+  
+    max-width: 100%;
+    
+  }
+  
+  .vouchers-title {
+    width: 296px;
+    height: 77px;
+    top: 78px;
+    left: 100px;
+    gap: 0px;
+    opacity: 0px;
+    color: rgba(0, 0, 0, 1);
+    font-family: Inter;
+font-size: 64px;
+font-weight: 600;
+line-height: 77.45px;
+text-align: left;
+
+    
+  }
+  
+  @media (max-width: 768px) {
+    .vouchers-title {
+      font-size: 1.2rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .vouchers-title {
+      font-size: 1rem;
+    }
+  }
+  

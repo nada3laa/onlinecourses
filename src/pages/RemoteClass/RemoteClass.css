@@ -1,0 +1,121 @@
+/* src/RemoteClassroom.css */
+.container-class {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    /* background-color: #f0f0f0; */
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  
+  .instructions-session {
+    display: flex;
+    flex-direction: column;
+    /* background-color: #d9dde6; */
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .instructions {
+    flex: 1;
+    padding-right: 20px;
+  }
+  
+  .instructions h1 {
+    font-size: 24px;
+    margin-bottom: 5px;
+  }
+  
+  .instructions p {
+    font-size: 16px;
+    margin: 0 0 20px 0;
+  }
+  
+  .instructions ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .instructions ul li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+  
+  .instructions ul li::before {
+    content: "✔️";
+    margin-right: 10px;
+    color: green;
+  }
+  
+  .instructions a {
+    color: blue;
+    text-decoration: underline;
+  }
+  
+  .session-info {
+    width: 372px;
+    height: 269px;
+    top: 483px;
+    left: 880px;
+    gap: 0px;
+    border-radius: 12px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    border: 1px solid rgba(82, 92, 235, 1);
+  }
+  
+  .session-info .code-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e0e0e0;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .session-info .code-box p {
+    margin: 0;
+    font-size: 14px;
+  }
+  
+  .session-info .code-box h2 {
+    font-size: 32px;
+    margin: 10px 0;
+  }
+  
+  .session-info .zoom-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 50px;
+  }
+  
+  .session-info .zoom-button:hover {
+    background-color: #004494;
+  }
+  
+  @media (min-width: 768px) {
+    .instructions-session {
+      flex-direction: row;
+      align-items: flex-start;
+    }
+  
+    .instructions {
+      width: 70%;
+      padding-right: 20px;
+    }
+  
+    .session-info {
+      width: 30%;
+      margin: 0;
+    }
+  }

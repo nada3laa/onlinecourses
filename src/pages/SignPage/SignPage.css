@@ -1,0 +1,87 @@
+
+  .signature-container {
+    background-color: white;
+    padding: 20px;
+ 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 900px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 600px;
+  }
+  
+  .header {
+    width: calc(100% + 40px);
+    margin: -20px -20px 20px -20px;
+    height: 100px;
+    /* border-bottom: 1px solid #dcdcdc; */
+    background: rgba(204, 204, 204, 1);
+    text-align: left;
+  }
+
+  .header h2{
+    font-family: Inter;
+font-size: 32px;
+font-weight: 500;
+line-height: 38.73px;
+text-align: left;
+color: rgba(0, 0, 0, 1);
+  }
+  
+  .instructions {
+    text-align: center;
+  }
+  
+  .signature-pad {
+    border: 2px dashed #007bff;
+    width: 100%;
+    height: 250px;
+    margin: 20px 0;
+  }
+  
+  .buttonns {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+  }
+  
+  .confirm-buttonn, .delete-buttonn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 10px;
+  }
+  
+  .confirm-buttonn {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .delete-buttonn {
+    background-color: #ff4d4d;
+    color: white;
+  }
+  
+  @media (max-width: 600px) {
+    .buttons {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .confirm-button, .delete-button {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  
+    .confirm-button:last-child, .delete-button:last-child {
+      margin-bottom: 0;
+    }
+  }
+  

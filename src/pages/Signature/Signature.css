@@ -1,0 +1,74 @@
+.signatures-info {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #f3f3f3;
+    border: 1px solid #dcdcdc;
+    border-radius: 5px;
+    padding: 30px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  
+  .table-title {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .info-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+  }
+  
+  .row-1 {
+    background-color: #e7e7e7;
+  }
+  
+  .row-2 {
+    background-color: #dcdcdc;
+  }
+  
+  .info-label {
+    font-weight: bold;
+    color: #333;
+    width: 30%;
+  }
+  
+  .info-value {
+    color: #666;
+    width: 70%;
+  }
+  
+  .button-row {
+    margin-top: 20px;
+  }
+  
+  .help-button {
+    background-color: #4A4EB1;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+  }
+  
+  .help-button:hover {
+    background-color: #3a3c91;
+  }
+  
+  @media (max-width: 768px) {
+    .info-row {
+      flex-direction: column;
+      text-align: left;
+    }
+  
+    .info-label,
+    .info-value {
+      width: 100%;
+    }
+  }
+  

@@ -1,0 +1,109 @@
+.container-learn {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+  }
+  
+  .card {
+    width: 32%;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+  .card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .card-content {
+    padding: 10px;
+  }
+  
+  .card-title {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+  }
+  
+  .card-time {
+    font-size: 0.8em;
+    color: #888;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .pagination button {
+    margin: 0 5px;
+    padding: 5px 10px;
+    border: none;
+    background-color: #eee;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .tepically-section {
+    background-color: #8693a8; /* Similar to the background color in the image */
+    padding: 20px;
+    color: white;
+    text-align: center;
+    font-family: Arial, sans-serif;
+
+top: 167px;
+padding: 32px 238px 32px 100px;
+gap: 0px;
+opacity: 0px;
+margin-top: 30px;
+
+}
+
+.tepically-section .content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.tepically-section h1 {
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 58.09px;
+    text-align: left;
+    color:  rgba(0, 0, 0, 1);
+    width: 287px;
+height: 58px;
+top: 32px;
+left: 100px;
+gap: 0px;
+opacity: 0px;
+
+    
+}
+
+.tepically-section p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color: #d3d7dc; /* Slightly lighter color for the paragraph */
+}
+
+@media (max-width: 768px) {
+    .tepically-section h1 {
+        font-size: 2em;
+    }
+
+    .tepically-section p {
+        font-size: 1em;
+    }
+}
